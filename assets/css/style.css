@@ -1,0 +1,104 @@
+:root {
+    --primary-color: white;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+body {
+      color: black;
+      font-family: sans-serif;
+      background-color: grey;
+    }
+  
+header {
+      background-color:black;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+     }
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5;
+    margin: 10px
+    }
+ a {
+    color: white;
+}
+  
+h1 {
+        display: block;
+        font-weight: bold;
+        font-size: 36px;
+        color: white;
+        margin: 0;
+    }
+
+section {
+      padding :10px;
+      display: flex;
+      flex-direction: column;
+  }
+
+.parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:20px;
+    height: 250px;
+    width: 90%;
+    align-items: left;
+  }
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: grid;
+  }
+.first-product {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 80%;
+    height: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.products{
+    flex: 4;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.card1 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    padding: 15px;
+    flex: 0 0 300px;
+    margin: 20px;
+
+}
+.container {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    padding: 15px;
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+
